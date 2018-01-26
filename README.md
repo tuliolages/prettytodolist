@@ -23,25 +23,6 @@ Also, includes a Heroku `app.json` and a working Django `production.py` settings
 
 This is a good starting point for modern Python/JavaScript web projects.
 
-## Project bootstrap [![CircleCI](https://circleci.com/gh/vintasoftware/django-react-boilerplate.svg?style=svg)](https://circleci.com/gh/vintasoftware/django-react-boilerplate)
-- [ ] Start your project using:
-```
-django-admin startproject theprojectname --extension py,yml,json --name Procfile,README.md,.env.example --template=https://github.com/vintasoftware/django-react-boilerplate/archive/boilerplate-release.zip
-```
-- [ ] Above: don't forget the `--extension` and `--name` params!
-- [ ] Install pipenv if not installed yet: `pip install pipenv` (maybe you have to run this command as an OS superuser)
-- [ ] Make sure you have Python 3.6 installed
-- [ ] `pipenv install --dev`
-- [ ] Activate the newly created virtualenv with `pipenv shell`
-- [ ] `npm update --save`
-- [ ] `npm update --save-dev`
-- [ ] Check for outdated npm dependencies with `npm outdated` and update them
-- [ ] Change the first line of README to the name of the project
-- [ ] Add an email address to the `ADMINS` settings variable
-- [ ] Change the `SERVER_EMAIL` to the email address used to send e-mails.
-
-After completing ALL of the above, remove this `Project bootstrap` section from the project README. Then follow `Running` below.
-
 ## Running
 ### Setup
 - On project root, do the following:
