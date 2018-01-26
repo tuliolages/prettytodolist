@@ -1,6 +1,6 @@
 {
   "name": "prettytodolist",
-  "description": "{{project_name|title}} Heroku app.",
+  "description": "prettytodolist Heroku app.",
   "scripts": {
     "postdeploy": "python manage.py migrate"
   },
