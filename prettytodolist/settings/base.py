@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'common',
     'users',
     'docs',
+    'todos',
 ]
 
 MIDDLEWARE = [

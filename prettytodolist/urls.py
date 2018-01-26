@@ -9,6 +9,7 @@ import django_js_reverse.views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^docs/', include('docs.urls')),
+    url(r'^todos/', include('todos.urls')),
     url(r'^jsreverse/$', django_js_reverse.views.urls_js, name='js_reverse'),
 
     # Django Rest Framework browsable API
