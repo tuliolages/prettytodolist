@@ -8,7 +8,11 @@ import django_js_reverse.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^docs/', include('docs.urls')),
     url(r'^jsreverse/$', django_js_reverse.views.urls_js, name='js_reverse'),
+
+    # Django Rest Framework browsable API
+    url(r'^api-browser/auth/', include('rest_framework.urls', namespace='rest_framework')),
 
     url(r'^$', TemplateView.as_view(template_name='exampleapp/itworks.html'), name='home'),
 ]
