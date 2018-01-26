@@ -45,13 +45,13 @@ After completing ALL of the above, remove this `Project bootstrap` section from 
 ## Running
 ### Setup
 - On project root, do the following:
-- Create a copy of ``prettytodolist/settings/local.py.example``:  
+- Create a copy of ``prettytodolist/settings/local.py.example``:
   `cp prettytodolist/settings/local.py.example prettytodolist/settings/local.py`
-- Create a copy of ``.env.example``:  
+- Create a copy of ``.env.example``:
   `cp .env.example .env`
-- Create the migrations for `users` app (do this, then remove this line from the README):  
+- Create the migrations for `users` app (do this, then remove this line from the README):
   `python manage.py makemigrations`
-- Run the migrations:  
+- Run the migrations:
   `python manage.py migrate`
 
 ### Tools
@@ -90,6 +90,8 @@ If you made changes to this boilerplate and want to test them, commit your chang
 Push your changes to a branch and visit `https://dashboard.heroku.com/new?template=https://github.com/fill-org-or-user/fill-project-repo-name/tree/fill-branch` (replace all `fill-*`).
 
 ### How to add a 'Deploy to Heroku' button
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Read [this](https://devcenter.heroku.com/articles/heroku-button#adding-the-heroku-button).
 
 P.S. if you want to deploy in a different way please check the `app.json` file for what needs to be configured.
